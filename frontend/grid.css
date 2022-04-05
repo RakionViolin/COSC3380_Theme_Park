@@ -1,0 +1,28 @@
+._25 {
+    width: 21%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._50 {
+    width: 46%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._75 {
+    width: 71%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._100 {
+    width: 96%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
