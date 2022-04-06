@@ -1,0 +1,125 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <title>Add new maintenance reports</title>  
+        <link rel="stylesheet" href="grid.css">
+        <style>
+            body {
+                margin: 20px;
+            }
+            
+            .container {
+                width: 100vw;
+                height: 100vh;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 20px;   
+                
+                display: grid;
+                gap: 10px;
+            }
+
+            .content {
+                font-size: 14px;
+                font-weight: lighter;
+            }
+
+            .gap {
+                grid-column: 1 / span 3;
+            }
+
+            input {
+                
+                width: 250px;
+                height: 15px;
+                appearance: none;
+                padding: 16px 32px;
+            }
+
+            .bar {
+                background-color: black;
+                width: 255px;
+                height: 25px;
+                font-size: 14px;    
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+            }
+
+            #box {
+                width: 250px;
+                height: 50px;
+                
+            }
+            input[type=submit] {
+                background-color: black;
+                width: 50px;
+                height: 50px;
+                padding: 4px 4px;
+                font-size: 14px;    
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="_100">SEARCH FOR A RIDE</div>
+         
+            <form>
+                <div class="content">
+                    <div class="_25">
+                        <div class='bar'>
+                            Ride Info
+                        </div></br></br> 
+                        Name </br>              
+                        <input type="text" placeholder="Enter a ride's name" name="rideName"></br></br>      
+                        ID </br>
+                        <input type="text" placeholder="00000000" name="rideID"></br></br> 
+                        Type </br>
+                        <input type="text" placeholder="Enter a ride type" name="rideType"></br></br>
+                        Area </br>
+                        <input type="text" placeholder="Enter an area" name="area"></br></br></br></br>   
+                        <input type="submit" value="search">                        
+                    </div>
+                     
+                    <div class="_25">
+                        <div class='bar'>
+                            Opening date
+                        </div></br></br> 
+                        From </br>
+                        <input type="text" placeholder="YYYY-MM-DD" name="startingDate"></br></br>  
+ 
+                        To </br>
+                        <input type="text" placeholder="YYYY-MM-DD" name="completionDate"></br></br>
+                    </div>
+                     
+                    <div class="_25">
+                        <div class='bar'>
+                            Capacity
+                        </div></br></br> 
+                        From </br>
+                        <input type="text" placeholder="000" name="capacityFrom"></br></br>  
+ 
+                        To </br>
+                        <input type="text" placeholder="000" name="capacityTo"></br></br> 
+                    </div>
+                    
+                    <div class="_25">
+                        <div class='bar'>
+                            Past maintenance
+                        </div></br></br> 
+                        From </br>
+                        <input type="text" placeholder="YYYY-MM-DD" name="maintenanceFrom"></br></br>  
+ 
+                        To </br>
+                        <input type="text" placeholder="YYYY-MM-DD" name="maintenanceTo"></br></br>
+                        
+                    </div>                    
+                </div>
+                                  
+            </form>           
+        </div>
+    </body>
+</html>
